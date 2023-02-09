@@ -1,0 +1,12 @@
+Lösung zu Lab: Commandlets
+Get-Command -Noun Computer
+#oder
+Get-Command -Noun *Computer*
+Hierfür ist ein Download der Hilfe notwendig mit Update-Help
+
+Get-Help Get-AdUser -Examples
+Get-Alias -Name dir,cd
+oder
+
+Get-Command -Name dir,cd
+Get-ChildItem -Path C:\Testfiles\ -Filter *.txt -Recurse | Remove-Item -WhatIf
